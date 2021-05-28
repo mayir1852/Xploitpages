@@ -1,0 +1,1 @@
+web: gunicorn Xploitpages.wsgi:application --log-file -

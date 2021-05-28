@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en_GB" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Privacy Is Myth!">
+    <meta name="tags" content="xploitwizer,xploit wizer,xploit,wizer,exploitwizer,xploitspy,xploit spy,xploitspy pro,xploit spy pro,cyber security,pentesting,ethical hacking,web development,mobile app development,desktop app development, top cyber security company,tech services,tech support,linux,nodejs,reactjs,react native">
+    <link rel="icon" href="https://xploitwizer.com/assets/uploads/178" type="image/png">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700|Montserrat:regular,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://xploitwizer.com/assets/frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://xploitwizer.com/assets/frontend/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://xploitwizer.com/assets/frontend/css/dynamic-style.css">
+    <style>
+        :root {
+            --main-color-one: #02c39a;
+            --secondary-color: #000000;
+            --heading-color: #02c39a;
+            --paragraph-color: #e1f7e5;
+                         --heading-font: "Montserrat", sans-serif;
+            --body-font: "Poppins", sans-serif;
+        }
+    </style>
+    <style>
+        .maintenance-page-content-area {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 0;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .maintenance-page-content-area:after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: -1;
+            content: '';
+        }
+
+        .page-content-wrap {
+            text-align: center;
+        }
+
+        .page-content-wrap .logo-wrap {
+            margin-bottom: 30px;
+        }
+
+        .page-content-wrap .maintain-title {
+            font-size: 45px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 50px;
+            margin-bottom: 20px;
+        }
+
+        .page-content-wrap p {
+            font-size: 16px;
+            line-height: 28px;
+            color: rgba(255, 255, 255, .7);
+            font-weight: 400;
+        }
+
+        .page-content-wrap .subscriber-form {
+            position: relative;
+            z-index: 0;
+            max-width: 500px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+        .page-content-wrap .subscriber-form .submit-btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 60px;
+            height: 50px;
+            text-align: center;
+            border: none;
+            background-color: var(--main-color-one);
+            color: #fff;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .page-content-wrap .subscriber-form .form-group .form-control {
+            height: 50px;
+            padding: 0 20px;
+            padding-right: 80px;
+        }
+    </style>
+                    <title>XploitWizer
+            - Privacy Is Myth!</title>
+    </head>
+<body>
+
+<div class="maintenance-page-content-area"
+        style="background-image: url(https://xploitwizer.com/assets/uploads/media-uploader/xploitwizerbackground1617130022.png);"
+>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="maintenance-page-inner-content">
+                    <div class="page-content-wrap">
+                        <div class="logo-wrap">
+                            <img src="https://xploitweb.tk/static/main_temp/icons/xwlogo2.jpeg" height="200" width="250"  alt="Xploiphis"/>
+                            <img src="https://xploitweb.tk/static/main_temp/icons/animatedlogo.gif"  alt="XploitWizer"/>
+                        </div>
+                        <!-- <h2 class="maintain-title">Coming Soon</h2> -->
+                        <h6><a style="color :rgb(140, 224, 164)" href="https://xploitweb.tk/">Go To Dashboard</a></h6>
+                        <p></p>
+                        <div class="subscriber-form">
+                                                          
+                            <div class="newsletter-form-wrap">
+                                <div class="form-message-show"></div>
+                                <form action="https://xploitwizer.com/subscribe-newsletter" method="post"
+                                      enctype="multipart/form-data">
+                                    <input type="hidden" name="_token" value="hreLyhFi3bEIiVBLY8Ul2kKHHbNQ4rpkbIOPm4Rp">                                    <div class="form-group">
+                                        
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://xploitwizer.com/assets/frontend/js/jquery-3.4.1.min.js"></script>
+<script src="https://xploitwizer.com/assets/frontend/js/jquery-migrate-3.1.0.min.js"></script>
+<script src="https://xploitwizer.com/assets/frontend/js/bootstrap.bundle.min.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script>
+    $(document).ready(function (){
+        "use strict";
+
+        $(document).on('click', '.newsletter-form-wrap .submit-btn', function (e) {
+            e.preventDefault();
+            var email = $('.newsletter-form-wrap input[type="email"]').val();
+            var errrContaner = $(this).parent().parent().parent().find('.form-message-show');
+            errrContaner.html('');
+
+            $.ajax({
+                url: "https://xploitwizer.com/subscribe-newsletter",
+                type: "POST",
+                data: {
+                    _token: "hreLyhFi3bEIiVBLY8Ul2kKHHbNQ4rpkbIOPm4Rp",
+                    email: email
+                },
+                success: function (data) {
+                    errrContaner.html('<div class="alert alert-'+data.type+'">' + data.msg + '</div>');
+                },
+                error: function (data) {
+                    var errors = data.responseJSON.errors;
+                    errrContaner.html('<div class="alert alert-danger">' + errors.email[0] + '</div>');
+                }
+            });
+        });
+
+    });
+</script>
+
+
+</body>
+
+</html>
